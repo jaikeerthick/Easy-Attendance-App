@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/MainBack"
+    tools:context=".Insert_class_Activity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_insert_class"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="Create Class"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Just create your class to manage daily attendance and report them. Add students in the next step"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/text_color_dark"
+        android:focusedByDefault="false"
+        android:layout_marginTop="16dp"/>
+
+
+
+    <EditText
+        android:id="@+id/subjectName_createClass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_back"
+        android:padding="16dp"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:focusedByDefault="true"
+        android:hint="Subject name"/>
+
+    <EditText
+        android:id="@+id/className_createClass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_back"
+        android:padding="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:focusedByDefault="true"
+        android:hint="Class name"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select theme :"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textColor="@color/text_color_dark"
+        android:textSize="18dp"
+        android:layout_marginTop="12dp"/>
+
+    <co.ceryle.radiorealbutton.library.RadioRealButtonGroup
+        android:id="@+id/group"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:rrbg_bottomLineSize="0dp"
+        app:rrbg_selectorColor="@color/theme_light"
+        app:rrbg_selectorSize="6dp"
+        app:rrbg_selectorRadius="1dp"
+        app:rrbg_selectorBringToFront="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        app:rrbg_dividerSize="0dp"
+        app:rrbg_position="0"
+        app:rrbg_animateTexts_enter="decelerate"
+        app:rrbg_animateImages_enter="overshoot">
+        <co.ceryle.radiorealbutton.library.RadioRealButton
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:rrb_image="@drawable/asset_bg_paleblue"
+            app:rrb_imageHeight="50dp"
+            app:rrb_imageWidth="36dp"
+            app:rrb_ripple="true"
+            app:rrb_rippleColor="@color/black"
+            />
+        <co.ceryle.radiorealbutton.library.RadioRealButton
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:rrb_image="@drawable/asset_bg_green"
+            app:rrb_imageHeight="50dp"
+            app:rrb_imageWidth="36dp"
+            app:rrb_ripple="true"
+            app:rrb_rippleColor="@color/black"
+           />
+        <co.ceryle.radiorealbutton.library.RadioRealButton
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:rrb_image="@drawable/asset_bg_yellow"
+            app:rrb_imageHeight="50dp"
+            app:rrb_imageWidth="36dp"
+            app:rrb_ripple="true"
+            app:rrb_rippleColor="@color/black"
+            />
+        <co.ceryle.radiorealbutton.library.RadioRealButton
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:rrb_image="@drawable/asset_bg_palegreen"
+            app:rrb_imageHeight="36dp"
+            app:rrb_imageWidth="36dp"
+            app:rrb_ripple="true"
+            app:rrb_rippleColor="@color/black"
+            />
+        <co.ceryle.radiorealbutton.library.RadioRealButton
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:rrb_image="@drawable/asset_bg_paleorange"
+            app:rrb_imageHeight="36dp"
+            app:rrb_imageWidth="36dp"
+            app:rrb_ripple="true"
+            app:rrb_rippleColor="@color/black"
+            />
+        <co.ceryle.radiorealbutton.library.RadioRealButton
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:rrb_image="@drawable/asset_bg_white"
+            app:rrb_imageHeight="36dp"
+            app:rrb_imageWidth="36dp"
+            app:rrb_ripple="true"
+            app:rrb_rippleColor="@color/black"
+            />
+    </co.ceryle.radiorealbutton.library.RadioRealButtonGroup>
+
+    <Button
+        android:id="@+id/button_createClass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="create"
+        android:background="@drawable/button_back"
+        android:padding="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
