@@ -10,3 +10,10 @@ Installing this app is very simple:
 * Open Android Studio
 * Create a new project
 * Just clone this repository and run the project in your android device
+
+### How to use the app?
+* Create a Class with Class name, subject name and a theme
+* Add some students to the class
+* Just take a quick Attendance and submit.
+* View the reports that has been taken.
+
