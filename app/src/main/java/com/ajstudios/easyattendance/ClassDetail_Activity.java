@@ -158,8 +158,7 @@ public class ClassDetail_Activity extends AppCompatActivity {
                 long count = realm.where(Students_List.class)
                         .equalTo("class_id", room_ID)
                         .count();
-                final String size;
-                final String size2;
+                final String size, size2;
                 final SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(ClassDetail_Activity.this);
                 size = String.valueOf(preferences.getAll().size());
                 size2 = String.valueOf(count);

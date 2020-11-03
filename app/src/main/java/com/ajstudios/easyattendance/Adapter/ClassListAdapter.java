@@ -93,6 +93,7 @@ public class ClassListAdapter extends RealmRecyclerViewAdapter<Class_Names, View
                 holder.frameLayout.setBackgroundResource(R.drawable.gradient_color_6);
                 holder.subject_name.setTextColor(holder.itemView.getContext().getResources().getColor(R.color.text_color_secondary));
                 holder.class_name.setTextColor(holder.itemView.getContext().getResources().getColor(R.color.text_color_secondary));
+                holder.total_students.setTextColor(holder.itemView.getContext().getResources().getColor(R.color.text_color_secondary));
                 break;
         }
 
