@@ -1,5 +1,5 @@
 # Easy-Attendance-App
-An Android app which uses Realm database to make attendance process simple inside classroom
+An Android app which uses a Realm database to make attendance process simple inside classroom
 <img src="https://1.bp.blogspot.com/-3DB20TFYMtY/X5a53iGR__I/AAAAAAAAKho/Yeq8fcoM3Os4RFa8ml9oNv_ITbbyGk4RgCLcBGAsYHQ/s1280/Untitled-12.jpg">
 ### Quick view code
 
@@ -7,7 +7,7 @@ An Android app which uses Realm database to make attendance process simple insid
 
 ### Introduction
 
-This app simplifies the process of taking attendance in classroom. It has a very clean and elegant UI which is teacher-friendly. 
+This app simplifies the process of taking attendance in classroom. It has a pretty elegant UI which is teacher-friendly. 
 
 ### How to install?
 Installing this app is very simple:
